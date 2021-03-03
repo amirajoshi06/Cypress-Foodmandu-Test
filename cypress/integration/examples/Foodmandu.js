@@ -1,5 +1,5 @@
 describe('My Test Suite', function () {
-    it('Login Scenario', function () {
+    it('Foodmandu Test Cases', function () {
      
     //Opening Foodmandu URL 
     cy.visit('https://foodmandu.com/')   

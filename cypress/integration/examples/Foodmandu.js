@@ -9,7 +9,7 @@ describe('My Test Suite', function () {
 
     //Login
     cy.get('[type=email]').should('be.visible').and('be.enabled').type("amira@yopmail.com")  //assertion 
-    cy.get('[type=password]').should('be.visible').and('be.enabled').type('test@123')
+    cy.get('[type=password]').should('be.visible').and('be.enabled').type('test@123')        //assertion
     cy.get('[type=submit]').click()
     cy.wait(3000)
 
